@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>Javascript Login Form Validation</title>
+<!-- Include CSS File Here -->
+<link rel="stylesheet" href="style.css"/>
+<!-- Include JS File Here -->
+<script src="login.js"></script>
+</head>
+<body>
+<div class="container">
+<div class="main">
+<h2>Javascript Login Form Validation</h2>
+<h3> Registration <h3>
+<form action = "http://127.0.0.1:8081/process_get" method = "GET">
+   First Name: <input type = "text" name = "first_name">  <br>
+   Last Name: <input type = "text" name = "last_name">
+   <input type = "submit" value = "Submit">
+
+<h3> Login </h3>
+<form id="form_id" method="post" name="myform">
+<label>User Name :</label>
+<input type="text" name="username" id="username"/>
+<label>Password :</label>
+<input type="password" name="password" id="password"/>
+<input type="button" value="Login" id="submit" onclick="validate()"/>
+</form>
+<span><b class="note">Note : </b>For this demo use following username and password. <br/><b class="valid">User Name : Formget<br/>Password : formget#123</b></span>
+</div>
+</div>
+</body>
+</html>
